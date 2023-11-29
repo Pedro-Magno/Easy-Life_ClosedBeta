@@ -1,0 +1,128 @@
+import { StyleSheet } from 'react-native'
+
+const styles = StyleSheet.create ({
+    backgroundImage: {
+        flex: 1,
+        backgroundColor: '#23195F',
+    },
+    containerSuporte: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: 30,
+        alignContent: 'center',
+        height: 550 ,
+        width: '90%',
+        marginLeft: 18,
+        marginRight: 12,
+        borderRadius: 25,
+    },
+    containerChat: {
+        flex: 1,
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%',
+        height: 'auto',
+        borderRadius: 25,
+        gap: 15,
+    },
+    backgroundImageII: {
+        flex: 1,
+        display: 'flex',
+        justifyContent: 'center',
+        alignContent: 'center',
+        alignItems: 'center',
+        width: '100%',
+        height: 500,
+        borderRadius: 15,
+        resizeMode: 'cover'
+    },
+    chatInputContainer: {
+        backgroundColor: 'white',
+        borderRadius: 20,
+        display:'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: 10,
+        padding: 7,
+    },
+        chatInput: {
+        flex: 1,
+        height: 40,
+        borderColor: 'gray',
+        borderWidth: 1,
+        borderRadius: 20,
+        paddingHorizontal: 10,
+        color: 'black'
+    },
+        chatMessage: {
+        color: 'white',
+        marginBottom: 10,
+    },
+        modalContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+        modalContent: {
+        width: '80%',
+        padding: 20,
+        borderRadius: 10,
+        backgroundColor: 'white',
+    },
+        modalTitle: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginBottom: 10,
+    },
+        modalInput: {
+        height: 40,
+        borderColor: 'gray',
+        borderWidth: 1,
+        borderRadius: 5,
+        marginBottom: 10,
+        paddingHorizontal: 10,
+    },
+        modalButton: {
+        backgroundColor: 'blue',
+        padding: 10,
+        borderRadius: 5,
+        alignItems: 'center',
+        marginBottom: 10,
+    },
+        modalButtonText: {
+        color: 'white',
+        fontWeight: 'bold',
+    },
+    buttonSend: {
+        backgroundColor: 'aqua',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 20,
+        width: 50,
+        height: 50,
+    },
+    containerChatBox: {
+        display: 'flex',
+        flexDirection: 'column',
+        backgroundColor: 'white',
+        width: '100%',
+        height: 'auto',
+        borderRadius: 15,
+    },
+    containerTextChat: {
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        verticalAlign: 'middle',
+        gap: 5,
+    },
+ });
+
+export default styles
